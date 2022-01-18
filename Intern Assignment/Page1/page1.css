@@ -1,0 +1,76 @@
+img{
+	margin: 0;
+    padding-left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.pr{
+    color: rgb(8, 23, 90);
+    font-family: Comic Sans MS;
+    font-size: 44px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ttl{
+    color: black;
+    font-family: Mangal;
+    font-size: 20px;
+    text-align: left;
+    block-size: 5%;
+    margin-bottom: 5px;
+}
+.card {
+    top: 50%;
+    box-shadow: 0 0 5px 0;
+    background: inherit;
+    backdrop-filter: blur(10px);
+    margin: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+hr{
+    height: 2px;
+}
+
+fieldset{
+    border-radius: 5px;
+    width: 350px;
+    border-top: 5px solid red;
+}
+
+.button {
+    background-color: #ec380b; 
+    border: none;
+    color: white;
+    padding: 10px 87px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+
+  .button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  a{
+    text-decoration: none;
+    color: rgb(59, 9, 9);
+    font-size: 20px;
+}
+
+  #textboxid{
+      height: 30px;
+  }
